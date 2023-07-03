@@ -1,10 +1,13 @@
-export const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+export const contractAddress = "0x39338138414Df90EC67dC2EE046ab78BcD4F56D9"
+export const sepoliaAddress = "0x76B50696B8EFFCA6Ee6Da7F6471110F334536321"
+export const secretValue = "123456789"
+
 export const abi = [
   {
     inputs: [
       {
         internalType: "address",
-        name: "priceFeed",
+        name: "fcn",
         type: "address",
       },
     ],
@@ -13,113 +16,135 @@ export const abi = [
   },
   {
     inputs: [],
-    name: "MINIMUM_USD",
-    outputs: [
+    name: "LessonEight__WrongValue",
+    type: "error",
+  },
+  {
+    anonymous: false,
+    inputs: [
       {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
+        indexed: true,
+        internalType: "address",
+        name: "previousOwner",
+        type: "address",
+      },
+      {
+        indexed: true,
+        internalType: "address",
+        name: "newOwner",
+        type: "address",
       },
     ],
-    stateMutability: "view",
+    name: "OwnershipTransferred",
+    type: "event",
+  },
+  {
+    inputs: [],
+    name: "attribute",
+    outputs: [
+      {
+        internalType: "string",
+        name: "",
+        type: "string",
+      },
+    ],
+    stateMutability: "pure",
     type: "function",
   },
   {
     inputs: [],
-    name: "cheaperWithdraw",
-    outputs: [],
-    stateMutability: "payable",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "fund",
-    outputs: [],
-    stateMutability: "payable",
+    name: "description",
+    outputs: [
+      {
+        internalType: "string",
+        name: "",
+        type: "string",
+      },
+    ],
+    stateMutability: "pure",
     type: "function",
   },
   {
     inputs: [
       {
         internalType: "address",
-        name: "fundingAddress",
+        name: "",
         type: "address",
       },
     ],
-    name: "getAddressToAmountFunded",
+    name: "extraDescription",
     outputs: [
       {
-        internalType: "uint256",
+        internalType: "string",
         name: "",
-        type: "uint256",
+        type: "string",
       },
     ],
     stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "owner",
+    outputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "renounceOwnership",
+    outputs: [],
+    stateMutability: "nonpayable",
     type: "function",
   },
   {
     inputs: [
       {
         internalType: "uint256",
-        name: "index",
+        name: "secretValue",
         type: "uint256",
       },
-    ],
-    name: "getFunder",
-    outputs: [
       {
-        internalType: "address",
-        name: "",
-        type: "address",
+        internalType: "string",
+        name: "yourTwitterHandle",
+        type: "string",
       },
     ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "getOwner",
-    outputs: [
-      {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "getPriceFeed",
-    outputs: [
-      {
-        internalType: "contract AggregatorV3Interface",
-        name: "",
-        type: "address",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "getVersion",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "withdraw",
+    name: "solveChallenge",
     outputs: [],
-    stateMutability: "payable",
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "specialImage",
+    outputs: [
+      {
+        internalType: "string",
+        name: "",
+        type: "string",
+      },
+    ],
+    stateMutability: "pure",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "newOwner",
+        type: "address",
+      },
+    ],
+    name: "transferOwnership",
+    outputs: [],
+    stateMutability: "nonpayable",
     type: "function",
   },
 ]

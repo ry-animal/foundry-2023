@@ -1,5 +1,5 @@
 import { ethers } from "./ethers-5.6.esm.min.js"
-import { abi, contractAddress } from "./constants.js"
+import { abi, contractAddress, secretValue } from "./constants.js"
 
 const connectButton = document.getElementById("connectButton")
 const withdrawButton = document.getElementById("withdrawButton")
@@ -29,7 +29,7 @@ async function withdraw() {
   console.log(`Withdrawing...`)
   if (typeof window.ethereum !== "undefined") {
     const provider = new ethers.providers.Web3Provider(window.ethereum)
-    await provider.send('eth_requestAccounts', [])
+    await provider.send("eth_requestAccounts", [])
     const signer = provider.getSigner()
     const contract = new ethers.Contract(contractAddress, abi, signer)
     try {
@@ -45,16 +45,13 @@ async function withdraw() {
 }
 
 async function fund() {
-  const ethAmount = document.getElementById("ethAmount").value
   console.log(`Funding with ${ethAmount}...`)
   if (typeof window.ethereum !== "undefined") {
     const provider = new ethers.providers.Web3Provider(window.ethereum)
     const signer = provider.getSigner()
     const contract = new ethers.Contract(contractAddress, abi, signer)
     try {
-      const transactionResponse = await contract.fund({
-        value: ethers.utils.parseEther(ethAmount),
-      })
+      const transactionResponse = await contract.solveChallenge(secretValue, "")
       await listenForTransactionMine(transactionResponse, provider)
     } catch (error) {
       console.log(error)
