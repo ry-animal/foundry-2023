@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.19;
 
 import { VRFCoordinatorV2Interface } from "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
 import { VRFConsumerBaseV2 } from "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
@@ -48,7 +48,8 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface {
     /** Events */
     event EnteredRaffle(address indexed participant);
     event PickedWinner(address indexed winner);
-    
+    event RequestedRaffleWinner(uint256 indexed requestId);
+
     constructor(
         uint256 entranceFee, 
         uint256 interval, 
@@ -74,10 +75,10 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface {
         emit EnteredRaffle(msg.sender);
     }
 
-/**
- * @dev This function is called by the Chainlink Keeper Network to determine if upkeep is needed
- * The time has passed between interval runs, raffle is in OPEN state, has ETH, sub is funded with LINK
- */
+    /**
+     * @dev This function is called by the Chainlink Keeper Network to determine if upkeep is needed
+     * The time has passed between interval runs, raffle is in OPEN state, has ETH, sub is funded with LINK
+     */
     function checkUpkeep(
         bytes memory /** checkData */
     ) public view returns(
@@ -100,13 +101,16 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface {
             s_participants.length
         );
         s_raffleState = RaffleState.CALCULATING_WINNER;
-        i_vrfCoordinator.requestRandomWords(
+        uint256 requestId = i_vrfCoordinator.requestRandomWords(
             i_gasLane,
             i_subscriptionId,
             REQUEST_CONFIRMATIONS,
             i_callbackGasLimit,
             NUM_WORDS
         );
+
+        emit RequestedRaffleWinner(requestId);
+
     }
 
     function  fulfillRandomWords (
@@ -139,5 +143,17 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface {
 
     function getPaticipants(uint256 indexOfParticipant) external view returns (address) {
         return s_participants[indexOfParticipant];
+    }
+
+    function getRecentWinner() external view returns (address) {
+        return s_recentWinner;
+    }
+
+    function getLengthOfPlayers() external view returns (uint256) {
+        return s_participants.length;
+    }
+
+    function getLastTimeStamp() external view returns (uint256) {
+        return s_lastTimeStamp;
     }
 }
