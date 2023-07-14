@@ -25,3 +25,6 @@
 [submodule "erc-20/lib/openzeppelin-contracts"]
 	path = erc-20/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "stablecoin/lib/forge-std"]
+	path = stablecoin/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
