@@ -1,7 +1,8 @@
 repo_name: ry-animal/foundry-2023
 report_id: 1711bf5ec5fac912a07cadfd216914ab
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:14:07+00:00'
+timestamp: '2024-01-04T15:06:40+00:00'
 requested_by: ry-animal
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -48,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -61,7 +66,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -74,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -85,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
@@ -96,6 +103,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -108,6 +116,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -119,7 +128,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -131,6 +140,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -142,6 +152,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/yarn.lock
   detection_source: fund-me/lib/chainlink-brownie-contracts/yarn.lock
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -153,6 +164,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -167,7 +179,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -180,6 +192,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: solidity
   description: How people build software
@@ -187,6 +200,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4959/1__IS8pZzkhvd6kUbSFpSgag.png
+  detection_source_url: https://github.com/ry-animal/foundry-2023
   detection_source: Repo Metadata
 - name: "@types/chai"
   description: TypeScript definitions for chai
@@ -198,7 +212,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -212,7 +226,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -226,7 +240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -240,7 +254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -254,7 +268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -268,7 +282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -282,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -296,7 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -310,7 +324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -324,7 +338,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17297/default_3ec53c4dad64de27b72cc81401e898b5aea82f2c.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -340,7 +354,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -354,7 +368,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -368,7 +382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18573/default_fb79d45b291e13c71fc773f6fb21d0111f62c104.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -382,7 +396,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
@@ -396,7 +410,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
+  detection_source_url: https://github.com/ry-animal/foundry-2023/blob/main/fund-me/lib/chainlink-brownie-contracts/contracts/package-lock.json
   detection_source: fund-me/lib/chainlink-brownie-contracts/contracts/package.json
   last_updated_by: Ryan Van Valkenburg
   last_updated_on: 2023-07-03 00:27:12.000000000 Z
